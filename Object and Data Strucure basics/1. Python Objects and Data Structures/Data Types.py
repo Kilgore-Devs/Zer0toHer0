@@ -1,5 +1,5 @@
 # Integers -            int -       whole numbers - 2, 3, 4, 5
-# Floating Point -      float -     decimals - 2.14, 2.22
+# Floating Point -      float -     numbers with a decimal - 2.14, 2.22
 # Strings -             str -       ordered seq of chars - "This is a string."
 # List -                list -      ordered sequence of objects - [50, "Hi", 22.2]
 # Dictionaries -        dict -      unordered key:value pairs - {"key":"value"}
