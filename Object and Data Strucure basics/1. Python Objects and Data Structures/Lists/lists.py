@@ -1,4 +1,4 @@
-# lists are ordered and in []
+# lists are ordered and in []. Retrieved by location.
 the_list = [10, 9, 8]  # cant be any combo of data type ie boolean, float, string.
 print(len(the_list))
 print(the_list[0:3])  # slice and index the same way as a string
