@@ -6,3 +6,16 @@ print(bool(1 > 2))  # checks if true or false
 print(bool(1 != 1))  # checks if not equal to
 name = None  # place holder for "name" for later use
 print(type(name))  # "NoneType"
+print(2.0 == 2)  # is equal to?
+print(2.0 == "2")
+print(2.0 != "2")  # not equal to
+# >
+# <
+# >=
+# <=
+# Logical operators allow chaining of comparison operators
+# and/or/not
+print(1 == 1 and 1 == 2)  # both must be true
+print(1 == 1 or 1 == 2)  # one must be true
+print(not 1 == 1)  # opposite
+
