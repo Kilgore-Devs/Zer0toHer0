@@ -25,8 +25,8 @@ for n in y:
     print(n)
 
 a = 0  # sets a to 0
-while a < 10: # while a is less than 10, runt the block of code
-    if a == 5:  # if a is eqaul to 5, break out/stop
+while a < 10:  # while a is less than 10, runt the block of code
+    if a == 5:  # if a is equal to 5, break out/stop
         break
     print(a)  # prints a + 1
     a += 1
