@@ -10,6 +10,8 @@ for make, model in make_model:
 
 make_avg_price = [("Ford", 30000), ("Ram", 40000), ("Chevy", 60000)]
 # which make is highest amount
+
+
 def highest_price(make_avg_price):
     msrp = 0
     highest_cost = ""
@@ -21,7 +23,8 @@ def highest_price(make_avg_price):
         else:
             pass  # if not, pass and continue
 
-    return (highest_cost, msrp)
+    return highest_cost, msrp
+
 
 highest_price(make_avg_price)  # returns tuple
 print(highest_price(make_avg_price))  # prints output of function
@@ -31,5 +34,3 @@ vehicle_make, vehicle_price = highest_price(make_avg_price)  # tuple unpacking w
 print(vehicle_make)  # printing the tuple unpacking
 print(vehicle_price)
 # test what items are in a tuple of any function
-
-
