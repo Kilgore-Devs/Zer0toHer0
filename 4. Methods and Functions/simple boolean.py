@@ -9,11 +9,14 @@ def myfunc(x):  # defines myfunc and takes in x
         return "I do not like Python. :("
 
 
-y = input("True or False:\nPython is amazing?  ")  # sets x using input
+y = input("True or False:  Python is amazing?  ")  # sets x using input
 if y == "True" or "true":
     x = True
+
 elif y == "False" or "false":
     x = False
 else:
     print("Please try again.")
+
+
 myfunc(x)  # runs function using the result of if statement
