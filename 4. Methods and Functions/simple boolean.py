@@ -1,4 +1,4 @@
-def myfunc(x):  # defines myfunc and takes in x
+def myfunc(u):  # defines myfunc and takes in x
 
     if x == True:  # print and return if true
         print("I like Python.")
@@ -9,12 +9,14 @@ def myfunc(x):  # defines myfunc and takes in x
         return "I do not like Python. :("
 
 
-y = input("True or False:  Python is amazing?  ")  # sets x using input
-if y == "True" or "true":
+y = input("True or False:\nPython is amazing?  ")  # sets x using input
+y = y.capitalize()  # make users input of true or false start with capital letter
+if y == "True":  # if y is True then x is True
     x = True
 
-elif y == "False" or "false":
+elif y == "False":  # If y is False then x is False.
     x = False
+
 else:
     print("Please try again.")
 
