@@ -12,8 +12,8 @@ def myfunc(x):  # defines myfunc and takes in x
 y = input("True or False:\nPython is amazing?  ")  # sets x using input
 if y == "True" or "true":
     x = True
-elif:
-    y == "False" or "false":
+elif y == "False" or "false":
     x = False
-
+else:
+    print("Please try again.")
 myfunc(x)  # runs function using the result of if statement
