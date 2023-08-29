@@ -1,5 +1,6 @@
 
 def spongebob(anything):
+
     result = ""
     for i, letters in enumerate(anything):
         if i % 2 == 0:
