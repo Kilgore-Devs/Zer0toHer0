@@ -11,7 +11,7 @@ def spongebob(meme):
     return result
 
 
-meme = input("Input meme phrase here:   ")
+meme = input("Input serious quote here:   ")
 
 font = ImageFont.truetype("comicbd.ttf", 50)
 
