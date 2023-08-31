@@ -26,7 +26,7 @@ def splicer(words):
 
 cars = "M3", "Accord", "Viper", "Challenger"
 
-print(list(map(splicer, cars)))  # dont add () after fx name, its an arg,  not calling the fx
+print(list(map(splicer, cars)))  # dont add () after fx name, it's an arg,  not calling the fx
 
 
 def check_even(number):
@@ -45,9 +45,8 @@ print(list(filter(check_even, thenums)))
 square  = lambda n: n ** 2  # converting square fx into lambda
 print(square(99))
 
-print(list(map(lambda num:num**2, nums)))
-print(list(filter(lambda num:num % 2 == 0, thenums)))  # checks for even numbers in thenums list
+print(list(map(lambda num: num**2, nums)))
+print(list(filter(lambda num: num % 2 == 0, thenums)))  # checks for even numbers in thenums list
 
-print(list(map(lambda names:names[0], cars)))  # prints first letter of each item in cars list, via filtering
-print(list(map(lambda names:names[::-1], cars)))  # reverses
-
+print(list(map(lambda names: names[0], cars)))  # prints first letter of each item in cars list, via filtering
+print(list(map(lambda names: names[::-1], cars)))  # reverses
