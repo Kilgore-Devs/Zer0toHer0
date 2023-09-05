@@ -13,7 +13,7 @@ def spongebob(meme):
 
 meme = input("Input serious quote here:   ")
 
-font = ImageFont.truetype("comicbd.ttf", 50)
+font = ImageFont.truetype("arial.ttf", 50)
 
 img = Image.open("spongebob.png")
 
