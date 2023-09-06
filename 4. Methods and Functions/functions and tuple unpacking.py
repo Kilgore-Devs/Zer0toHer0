@@ -9,7 +9,7 @@ for make, model in make_model:
     print(make)
 
 make_avg_price = [("Ford", 30000), ("Ram", 40000), ("Chevy", 60000)]
-# which make is highest amount
+# which make is the highest amount
 
 
 def highest_price(make_avg_price):
