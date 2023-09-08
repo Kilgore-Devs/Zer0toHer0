@@ -23,4 +23,3 @@ print(diff_data_types.keys())  # displays keys
 print(diff_data_types.values())  # displays values
 print(len(diff_data_types))  # prints num of k:v pairs
 print(diff_data_types.items())  # prints items in dict as tuples ()
-
