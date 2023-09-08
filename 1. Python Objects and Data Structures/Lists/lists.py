@@ -7,7 +7,7 @@ print(the_list + next_list)  # can concatenate
 # can change list
 next_list[2] = 4  # changes index 2 to 4
 print(next_list)
-next_list.append(5)  # adds '5' at the end of list, can add anything
+next_list.append(5)  # Adds '5' at the end of list, can add anything
 print(next_list)
 next_list.pop(2)
 print(next_list)
