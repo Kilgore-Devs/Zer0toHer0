@@ -1,7 +1,7 @@
 # Dictionaries have {key:value pairs}
 # Dictionaries objects retrieved by key name.
 # Dictionaries are unordered and cannot be sorted
-dict1 = {"k1": "v1", "k2": "v2", "k3": "v3"}
+dict1 = {"k1": "v1", "k2": "v2", "k3": "v3", "k4": "v4"}
 print(dict1)
 msrp = {"Mustang": 50000, "Corvette": "80000", "Charger": 30000}
 print(msrp["Mustang"])
