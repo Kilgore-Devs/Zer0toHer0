@@ -1,7 +1,7 @@
 # since many objects in python are iterable,
 # loops can execute a block of code for every iteration
-# iterable mean you can perform an action for every 'thing' in
-# the object it char in string, items in a list, dict, tuple
+# iterable means you can perform an action for every 'thing' in
+# the object. The char in string, items in a list, dict, tuple
 my_list = [1, 2, 3]
 for item in my_list:  # item is just a place holder for what is being iterated..can choose whatever
     print(item)  # for this example, prints 'item' or whats in the list
@@ -50,7 +50,7 @@ print(len(unpack_me))
 for i in unpack_me:
     print(i)
 for a, b in unpack_me:  # unpack by making variable separated by comma
-    print(a,b)
+    print(a, b)
 
 # iterating through dicts
 small_dict = {"k1": "v1", "k2": "v2", "k3": "v3"}
