@@ -50,7 +50,7 @@ print(len(unpack_me))
 for i in unpack_me:
     print(i)
 for a, b in unpack_me:  # unpack by making variable separated by comma
-    print(a)
+    print(a,b)
 
 # iterating through dicts
 small_dict = {"k1": "v1", "k2": "v2", "k3": "v3"}
