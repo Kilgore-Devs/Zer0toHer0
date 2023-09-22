@@ -24,9 +24,9 @@ def the_guess():
 
 def guess_checker(the_list, user_guess):
     if the_list[user_guess] == "X":
-        print("Nailed it!")
+        print("Lucky Guess!")
     elif the_list[user_guess] != "X":
-        print("Wrong choice.")
+        print("Wrong choice Try again.")
         the_guess()
         shuffler(the_list)
         guess_checker(mixed_list, users_guess)
