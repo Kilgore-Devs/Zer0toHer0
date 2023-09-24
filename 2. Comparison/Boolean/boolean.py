@@ -18,4 +18,9 @@ print(2.0 != "2")  # not equal to
 print(1 == 1 and 1 == 2)  # both must be true
 print(1 == 1 or 1 == 2)  # one must be true
 print(not 1 == 1)  # opposite
+counter = 0
+while counter <= 100:
+    counter += 1
+    print(counter)
+
 
