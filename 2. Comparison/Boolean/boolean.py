@@ -21,4 +21,4 @@ print(not 1 == 1)  # opposite
 counter = 0  # set counter
 while counter <= 100:  # while counter is less than 100 do the loop
     counter += 1  # increment counter by 1
-    print(counter)  # print the counter
+    print("this is my count: " + str(counter))  # print the counter
