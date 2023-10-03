@@ -14,5 +14,5 @@ with open("C:\\Users\\usrname\\xxx\\xxx\\Object and Data Strucure basics\\1. Pyt
     print(contents.write("This line was appended."))
 # create new file in current path and write to it.n.
 with open("this is a new file", mode='w') as n:
-    n.write("This file is created.")
+    n.write("The file is created.")
 
