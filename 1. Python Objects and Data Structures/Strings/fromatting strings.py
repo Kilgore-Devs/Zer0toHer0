@@ -12,6 +12,3 @@ print("The result is {r:1.3f}:".format(r= answer))  #format flaots with value:wi
 #string literal method skips .format() method
 name = "Me"
 print(f"Hello {name}")  # 'f' before string then variable in the {}
-
-
-
